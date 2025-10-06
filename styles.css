@@ -1,0 +1,75 @@
+body {
+    test-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(10, 117, 240), rgb(143, 210, 255));
+    color: rgb(32, 13, 13);
+    justify-content: center;
+}
+
+#container1 {
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://lh3.googleusercontent.com/KwGs7wyGROPB63Ne15eOEFMjDsraCmpbEDnLeIZsM2d1ArOmcBzJM7bDGTYs-13n7hSwZ054MN8HlrICDroSEmQkkzAL1e1j1JD1VLbgop6lnxWiRw6PhaLSYMrIBglk0-CSpNdezsFNzx6wsoXOd6U');
+    background-size: cover;
+    background-position: center;
+}
+#container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#activity-desc {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 0px 0px 6px black;
+}
+h1, h2, h3, h4 {
+     text-shadow: 1px 1px 6px rgb(245, 240, 240);
+}
+#activity-img {
+    width: 100px;
+    height: 100px;   
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(226, 209, 209, 0.2);
+    object-fit: cover;
+}
+#guide-img {
+    width: 150px;
+    height: auto;   
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(226, 209, 209, 0.2);
+}
+#guide-img-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 102, 209);
+    width: 500px;
+    height: 200px;
+    margin: auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 200px;
+    text-align: end;
+    border-bottom: 12px solid rgb(47, 148, 52);    
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+
+}
